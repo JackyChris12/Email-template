@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .body {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: left;
+    }
+    .footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 10px;
+      font-size: 12px;
+    }
+    @media only screen and (max-width: 600px) {
+      .container {
+        width: 100% !important;
+      }
+      .header {
+        padding: 15px;
+      }
+      .body {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table class="container" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="header">
+        <h1>Welcome to Our Service!</h1>
+      </td>
+    </tr>
+    <tr>
+      <td class="body">
+        <p>Hello Jackline,</p>
+        <p>Thank you for signing up for our service. We’re excited to have you on board. To get started, click the link below:</p>
+        <p><a href="[Activation Link]">Activate Your Account</a></p>
+        <p>If you have any questions, don’t hesitate to reach out to our support team.</p>
+        <p>Best regards,</p>
+        <p>Eldohub</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="footer">
+        <p>If you no longer wish to receive emails from us, click here to unsubscribe.</p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
